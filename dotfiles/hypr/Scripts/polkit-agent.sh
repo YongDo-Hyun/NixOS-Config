@@ -1,0 +1,1 @@
+/nix/store/vjrlb8w2ssn8fp75i1g3rlz5mcnihqcy-home-manager-files/.config/hypr/Scripts/polkit-agent.sh
