@@ -59,6 +59,8 @@
     thunderbird-bin
     mcaselector
     btop
+    zapzap
+    libreoffice-fresh
     gnome-disk-utility
     p7zip
     unzip
@@ -118,6 +120,74 @@
     lf
     hyprpolkitagent
     flatpak
+    jetbrains.clion
+    jetbrains.writerside
+    jetbrains.webstorm
+    jetbrains.rust-rover
+    jetbrains.ruby-mine
+    jetbrains.rider
+    jetbrains.pycharm-community-bin
+    jetbrains.phpstorm
+    jetbrains.mps
+    jetbrains.idea-community-bin
+    jetbrains.goland
+    jetbrains.gateway
+    jetbrains.dataspell
+    jetbrains.datagrip
+    jetbrains.aqua
+    jetbrains-mono
+    jetbrains-toolbox
+    ninja
+    lld
+    mold
+    gdb
+    lldb
+    valgrind
+    strace
+    devbox
+    direnv
+    just
+    shellcheck
+    hadolint
+    bat
+    eza
+    glow
+    rustup
+    go
+    deno
+    dotnet-sdk_8
+    lua
+    luajit
+    meson
+    python3Packages.pytest
+    python3Packages.coverage
+    cargo-audit
+    cargo-outdated
+    git-lfs
+    pre-commit
+    act
+    nixfmt-rfc-style
+    alejandra
+    flatpak-builder
+    rpm
+    dpkg
+    wireshark
+    tshark
+    mitmproxy
+    openssl
+    curlie
+    httpie
+    docker-compose
+    zoxide
+    atuin
+    thefuck
+    broot
+    zulu
+    zulu8
+    zulu24
+    zulu23
+    zulu17
+    zulu11
   ];
   programs.nh = {
     enable = true;
