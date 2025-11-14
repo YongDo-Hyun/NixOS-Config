@@ -12,7 +12,7 @@
     after = [ "network.target" ];
     wantedBy = [ "multi-user.target" ];
     serviceConfig = {
-    ExecStart = "${pkgs.cloudflared}/bin/cloudflared proxy-dns --port 53 --upstream https://1.1.1.1/dns-query --upstream https://1.0.0.1/dns-query";
+    ExecStart = "${pkgs.cloudflared}/bin/cloudflared proxy-dns --port 53 --upstream https://dns.quad9.net/dns-query ";
     Restart = "always";
     User = "root";
     };

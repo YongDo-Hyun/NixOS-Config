@@ -189,6 +189,8 @@
     zulu23
     zulu17
     zulu11
+    ydotool
+    libnotify
   ];
   programs.nh = {
     enable = true;

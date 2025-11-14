@@ -420,7 +420,6 @@
     userName = "YongDo-Hyun";
     userEmail = "froster12@naver.com";
   };
-
   # Ortam değişkenleri
   home.sessionVariables = {
     EDITOR = "nvim";
