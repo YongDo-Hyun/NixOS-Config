@@ -84,6 +84,7 @@
     grim
     slurp
     swappy
+    grimblast
     playerctl
     nmap
     iperf3
