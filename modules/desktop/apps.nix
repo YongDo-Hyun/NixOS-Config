@@ -19,10 +19,13 @@
     wl-clipboard
     cliphist
     easyeffects
+    inkscape
+    appstream
     kdePackages.polkit-kde-agent-1
     qt6.qtwayland
     kdePackages.kirigami
     qt6.qtdeclarative
+    kdePackages.qttools
     mako
     hypridle
     steam
@@ -39,6 +42,7 @@
     vesktop
     vencord
     spotify
+    wineWowPackages.full
     obs-studio
     (pkgs.wrapOBS {
       plugins = with pkgs.obs-studio-plugins; [
@@ -191,6 +195,7 @@
     zulu11
     ydotool
     libnotify
+    qtcreator
   ];
   programs.nh = {
     enable = true;

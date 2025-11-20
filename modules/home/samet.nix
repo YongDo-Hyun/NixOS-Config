@@ -183,10 +183,6 @@
   home.file.".config/fastfetch/nixos.png".source = ../../dotfiles/others/fastfetch/nixos.png;
 
   # Fcitx (input method)
-  home.file.".config/fcitx/dbus".source = ../../dotfiles/others/fcitx/dbus;
-  home.file.".config/fcitx5/conf".source = ../../dotfiles/others/fcitx5/conf;
-  home.file.".config/fcitx5/config".source = ../../dotfiles/others/fcitx5/config;
-  home.file.".config/fcitx5/profile".source = ../../dotfiles/others/fcitx5/profile;
 
   # Kate external tools
   home.file.".local/share/kate/externaltools".source = ../../dotfiles/others/kate/externaltools;
@@ -245,6 +241,7 @@
       spacing: 8;
   }
   '';
+
   gtk = {
     enable = true;
     theme = {

@@ -61,7 +61,7 @@
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
             home-manager.users.samet = import ./modules/home/samet.nix;
-            home-manager.backupFileExtension = "bak";
+            home-manager.backupFileExtension = "backup";
         }
       ];
     };
